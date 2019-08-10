@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+</style>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head >
+		<title>MVIC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		   <link rel="stylesheet" href="assets/csscss2.css">
+
+
+	</head>
+	<body id = "body" class="is-preload">
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper" ondblclick="white();">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href = "index.html">
+							<img src = "images/Group.png" style = "width:10%; margin-top: 1.5%;" >
+						</a>
+						<nav>
+							
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								
+								<li><a href="info.html">Contest Information</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="sponsor.html">Sponsors</a></li>
+								<li><a href="problems.html">Practice Problems</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="stars"></div>
+  							<div class="stars2"></div>
+  							<div class="stars3"></div>
+  							<div class="shooting-stars"></div>
+							<img src = "images/logo.png" class = "center">
+							
+							
+							<img src = "images/blob1.png"  class = "blob1 blob">
+							<img src = "images/blob2.png"  class = "blob2 blob">
+							<img src = "images/blob3.png"  class = "blob3 blob">
+							<img src = "images/blob4.png"  class = "blob4 blob">
+							<img src = "images/blob5.png"  class = "blob5 blob">
+							<div class="container">
+ 
+							<a class="animated animatedFadeInUp fadeInUp typeform-share button" href="https://sidkumar.typeform.com/to/mAk6FI" data-mode="drawer_up" style="display:inline-block;text-transform:lowercase;background-color:#F09F97;margin-top:-200px;color:white;cursor:pointer;font-family:gtwal;font-size:19px;line-height:47.5px;text-align:center;height:47.5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">sign up </a> 
+							</div>
+
+				<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+
+							
+
+
+
+
+
+
+							<script type="text/javascript">
+								var x = document.getElementsByClassName("blob");
+								var styleComArray = [];
+								for (var i = 0; i < x.length; i++) { 
+
+  									styleComArray[i] = getComputedStyle(x[i]);
+								}
+								var origXArray = [];
+								var origYArray = [];
+								for(var i =0; i< x.length; i++)
+								{
+									console.log(styleComArray[i].left);
+									origXArray[i] = parseInt(styleComArray[i].left);
+									origYArray[i] = parseInt(styleComArray[i].top);
+								}
+								
+								var boolean = 0;
+
+								var posX;
+								var posY;
+
+								document.addEventListener("mousemove", (e) => {
+								  var x = document.getElementsByClassName("blob");
+									if(boolean == 0)
+									{
+										
+										var t=setInterval(movePosition,1);
+										boolean = 1;
+									}
+									posX = e.pageX;
+									posY = e.pageY;
+									console.log(e.pageX);
+								})
+
+								 
+
+								function movePosition()
+								{
+
+									var x = document.getElementsByClassName("blob")
+									
+									var tempXArray = [];
+									var tempYArray = [];
+									for(var i =0; i < x.length; i++)
+									{
+										tempXArray[i] = origXArray[i] - posX;
+										
+										tempXArray[i] = Math.round(tempXArray[i]*(5/200));
+										tempYArray[i] = origYArray[i] - posY;
+										tempYArray[i] = Math.round(tempYArray[i]*(5/200));
+									}
+									for(var i =0; i < x.length; i++)
+									{
+										x[i].style.left = tempXArray[i] + origXArray[i] + "px";
+										x[i].style.top = tempYArray[i] + origYArray[i] + "px";
+									}
+
+								}
+								
+								function white()
+								{
+									document.body.style.backgroundColor = "white";
+
+								}
+							</script>
+
+						</div>
+					</section>
+
+					
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+							<h1>inspiring students <br/>in the field of <br/> computer science! </h1>
+
+							
+
+
+							<section data-aos="fade-right"  data-aos-duration="1500" data-aos-easing="ease-in-out" id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a ><img data-aos="fade-up" data-aos-delay="700" data-aos-duration="800" data-aos-easing="ease-in-out"src="images/Group2.png" style = "width: 60%;"/></a>
+									<div class="content">
+										<h2 data-aos="fade-up" data-aos-delay="700" data-aos-duration="800" data-aos-easing="ease-in-out" class="major" style = "font-size: 2.4em;" >what we are about</h2>
+										<p data-aos="fade-up" data-aos-delay="1200" data-aos-duration="800" data-aos-easing="ease-in-out">hackswiftly is a 24 hour high-school hackathon, where participants will be given the opportunity to brainstorm, design, create,and pitch any project they wish in an effort to win prizes and sponsor gifts. thanks to our wonderful sponsors the event is 100% free with food, swag, prizes, and an overnight venue provided. our vision for this hackathon contains innovative solutions (through technology) to problems we face in our community currently. </p>
+									</div>
+								</div>
+							</section>
+
+							<section data-aos="fade-left"  data-aos-duration="1500" data-aos-easing="ease-in-out" id="two" class="wrapper alt spotlight style2" style = "margin-top: 300px;">
+								<div class="inner">
+									
+									<div class="content">
+										<h2 data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out" class="major">schedule! (tbd)</h2>
+
+										<section id="section-agenda" class="section-wrapper section-agenda white-bg">
+     										
+										<!--
+								            <div class="row">
+								                <div class="col-md-4">
+
+								                    <div class="session">
+								                        <hsched>Check In</hsched>
+								                        <timesched>11:00 - 11:30 AM</timesched>
+								                    </div>
+
+
+								                    <div class="session">
+								                        <hsched>Opening Ceremony</hsched>
+								                        <time>11:30 - 12:30 PM</time>
+								                    </div>
+
+
+								                    <div class="session">
+								                        <hsched>Group Pairing</hsched>
+								                        <time>12:45 PM</time>
+								                    </div>
+
+								                    <div class="session">
+								                        <hsched>Coding Begins</hsched>
+								                        <time>1 PM</time>
+								                    </div>
+								                    <div class="session">
+								                        <hsched>Lunch</hsched>
+								                        <time>1:45 - 2:30 PM</time>
+								                    </div>
+
+								                    <div class="session">
+								                        <hsched>iOS Workshop</hsched>
+								                        <time>4:00 - 5PM</time>
+								                    </div>
+
+								              </div>
+								                <div class="col-md-4">
+
+								                    <div class="session">
+								                        <hsched>Smash Tournament</hsched>
+								                        <time>4:30 - 6PM</time>
+								                    </div>
+								                    <div class="session">
+								                        <hsched>AWS Workshop</hsched>
+								                        <time>6:15 - 7PM</time>
+								                    </div>
+
+								                    <div class="session">
+								                        <hsched>Dinner</hsched>
+								                        <time>7:30 - 8:30PM</time>
+								                    </div>
+								                     <div class="session">
+								                        <hsched>Cup Stacking Competition</hsched>
+								                        <time>10 - 11PM</time>
+								                    </div>
+
+								                </div>
+
+								                <div class="col-md-4">
+
+								                    <div class="session">
+								                        <hsched>Midnight Snack</hsched>
+								                        <time>12:30 - 1AM</time>
+								                    </div>
+								                    
+								                    <div class="session">
+								                        <hsched>Breakfast</hsched>
+								                        <time>6 - 7AM</time>
+								                    </div>
+								                   
+								                    <div class="session">
+								                        <hsched>Coding Ends (Submissions are due)</hsched>
+								                        <time>10AM</time>
+								                    </div>
+								                    
+								                    <div class="session">
+								                        <hsched>Awards</hsched>
+								                        <time>11AM - 12PM</time>
+								                    </div>
+
+								                    <div class="session">
+								                        <hsched>Closing Ceremony</hsched>
+								                        <time>12PM - 12:30PM</time>
+								                    </div>
+								                  
+
+								                </div>
+
+								            </div>
+								    	 -->
+								       
+
+								    </section>
+										
+									</div>
+									</div>
+								</div>
+							</section>
+							<section data-aos="fade-right"  data-aos-duration="1500" data-aos-easing="ease-in-out" id="one" class="wrapper spotlight style1" style = "margin-top: 300px;">
+								<div class="inner">
+									<div class="content">
+										<h2 data-aos="fade-up" data-aos-delay="700" data-aos-duration="800" data-aos-easing="ease-in-out" class="major">our wonderful sponsors</h2>
+
+										<h2 data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" data-aos-easing="ease-in-out" style = "font-size: 1.3em;">want to sponsor us? take a look at our <a style = "color: black; border-bottom: solid 2px rgba(0, 0, 0, 0.5);
+" href="assets/hackswiftlyprospectus.pdf">sponsorship prospectus!</a></h2>
+										<p></p>
+									</div>
+								</div>
+							</section>
+
+							<section data-aos="fade-left"  data-aos-duration="1500" data-aos-easing="ease-in-out" id="two" class="wrapper alt spotlight style2" style = "margin-top: 300px;">
+								<div class="inner">
+									
+									<div class="content">
+										<h2 data-aos="fade-up" data-aos-delay="700" data-aos-duration="800" data-aos-easing="ease-in-out" class="major">the team</h2>
+										<h2 data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" data-aos-easing="ease-in-out" style = "font-size: 1.6em;">execs</h2>
+
+							             <div class="row" style = "margin-top: 40px;">
+							                  <div style = "height: 200px;" class="col-sm-6 col-md-6 ">
+
+							                      <figure class="thumbnail">
+							                         
+							                         <div class = "zoom">
+							                          <img data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" data-aos-easing="ease-in-out" style = "height: 500px; width: 400px; margin-left: 200px;" src="images/img-team-7.jpg" class="img-responsive " alt="Image">
+							                          </div>
+
+							                          <figcaption class="caption text-center">
+
+							                              <h3 data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-easing="ease-in-out" style = "margin-left: 200px;">Vidit Agrawal
+							                                  
+							                              </h3>      
+														 </figcaption>
+							                      </figure>
+							                  </div>
+
+							                   <div class = "col-sm-6 col-md-6">
+							                      <figure class="thumbnail">
+							                        <div class = "zoom">
+							                          <img data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" data-aos-easing="ease-in-out" style = "height: 500px; width: 400px;" src="images/img-team-2.jpg" class="img-responsive" alt="Image">
+							                          </div>
+							                          <figcaption class="caption text-center">
+
+							                              <h3 data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-easing="ease-in-out" >Sid Kumar
+							                                  
+							                              </h3>    
+
+							                             
+							                          </figcaption>
+							                      </figure>
+							                  </div>
+							            </div> 
+									</div>
+								</div>
+							</section>
+
+
+							
+
+							<!--
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Sponsors</h2>
+										<p>We want to recognize the various sponsors that have made this event possible!</p>
+										<a href="sponsor.html" class="special">take me there!</a>
+									</div>
+								</div>
+							</section>
+
+							<section id="five" class="wrapper alt spotlight style5">
+								<div class="inner">
+									<a  class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Practice Problems</h2>
+										<p>Want to get prepared for the competition? Here are some practice problems you can do to feel ready!</p>
+										<a href="problems.html" class="special">Take me there!</a>
+									</div>
+								</div>
+							</section> -->
+
+						<!-- Four -->
+							
+				<!-- Footer -->
+				
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">contact us</h2>
+							<p>If you still have any other questions or concerns, send us a message through email!</p>
+							
+							<ul class="actions">
+								<a href = "mailto:hackswiftly2019@gmail.com">
+								<li><input type="submit" value="Send Message" /></li>
+								</a>
+							</ul>
+							<line></line>
+						
+							
+
+						</div>
+					</section>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
