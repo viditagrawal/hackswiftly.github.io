@@ -253,13 +253,13 @@ input, select, textarea {
 		}
 	
 		
-@media screen and (max-width: 700px)
+@media screen and (max-width: 900px) and (min-width: 730px)
 {
 	.blob1 {
 			opacity: 50%;
 			position: absolute;
-			left: 0px;
-			top: 400px;
+			left: 0%;
+			top: 66%;
 			display: block;
 			width: 40%;
 			-webkit-animation-name: zoomIn;
@@ -274,8 +274,8 @@ input, select, textarea {
 		.blob2 {
 			opacity: 0%;
 			position: absolute;
-			left: 500px;
-			top:350px;
+			left: 73%;
+			top:58%;
 
 			display: block;
 			width: 40%;
@@ -291,8 +291,8 @@ input, select, textarea {
 		.blob3 {
 			opacity: 0%;
 			position: absolute;
-			left: 500px;
-			top: 25px;
+			left: 83%;
+			top: 10%;
 			display: block;
 			width: 15%;
 			-webkit-animation-name: zoomIn;
@@ -308,7 +308,7 @@ input, select, textarea {
 			opacity: 0%;
 			display: block;
 			position:absolute;
-			top:-50px;
+			top:8%;
 			left:0px;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
@@ -324,8 +324,8 @@ input, select, textarea {
 		.blob5 {
 			opacity: 0%;
 			position: absolute;
-			top: -50px;
-			right: 200px;
+			top: 8%;
+			right: 33%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
@@ -338,13 +338,13 @@ input, select, textarea {
 			  animation-delay: 1.7s; 
 		}
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 729px) and (min-width: 500px)
 {
 	.blob1 {
 			opacity: 50%;
 			position: absolute;
-			left: 0px;
-			top: 400px;
+			left: -8%;
+			top: 66%;
 			display: block;
 			width: 40%;
 			-webkit-animation-name: zoomIn;
@@ -359,8 +359,8 @@ input, select, textarea {
 		.blob2 {
 			opacity: 0%;
 			position: absolute;
-			left: 400px;
-			top:350px;
+			left: 73%;
+			top:58%;
 
 			display: block;
 			width: 40%;
@@ -376,8 +376,8 @@ input, select, textarea {
 		.blob3 {
 			opacity: 0%;
 			position: absolute;
-			left: 500px;
-			top: 25px;
+			left: 83%;
+			top: 10%;
 			display: block;
 			width: 15%;
 			-webkit-animation-name: zoomIn;
@@ -393,7 +393,7 @@ input, select, textarea {
 			opacity: 0%;
 			display: block;
 			position:absolute;
-			top:-50px;
+			top:0%;
 			left:0px;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
@@ -409,8 +409,8 @@ input, select, textarea {
 		.blob5 {
 			opacity: 0%;
 			position: absolute;
-			top: -50px;
-			right: 200px;
+			top: 0%;
+			right: 33%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
@@ -422,14 +422,17 @@ input, select, textarea {
 			  -webkit-animation-delay: 0.1s;
 			  animation-delay: 1.7s; 
 		}
+		#banner h1 {
+			font-size:1.5em;
+		}
 }
-@media screen and (max-width: 550px)
+@media screen and (max-width: 1919px) and (min-width: 901px)
 {
 	.blob1 {
 			opacity: 50%;
 			position: absolute;
-			left: 0px;
-			top: 400px;
+			left: -8%;
+			top: 66%;
 			display: block;
 			width: 40%;
 			-webkit-animation-name: zoomIn;
@@ -444,8 +447,8 @@ input, select, textarea {
 		.blob2 {
 			opacity: 0%;
 			position: absolute;
-			left: 350px;
-			top:350px;
+			left: 73%;
+			top:58%;
 
 			display: block;
 			width: 40%;
@@ -461,8 +464,8 @@ input, select, textarea {
 		.blob3 {
 			opacity: 0%;
 			position: absolute;
-			left: 400px;
-			top: 25px;
+			left: 83%;
+			top: 0%;
 			display: block;
 			width: 15%;
 			-webkit-animation-name: zoomIn;
@@ -478,8 +481,8 @@ input, select, textarea {
 			opacity: 0%;
 			display: block;
 			position:absolute;
-			top:-20px;
-			left:0px;
+			top:-10%;
+			left:-10%;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
 			  animation-name: zoomIn;
@@ -494,8 +497,8 @@ input, select, textarea {
 		.blob5 {
 			opacity: 0%;
 			position: absolute;
-			top: -30px;
-			right: 150px;
+			top: -10%;
+			right: 33%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
@@ -508,13 +511,13 @@ input, select, textarea {
 			  animation-delay: 1.7s; 
 		}
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 4000px) and (min-width: 1920px)
 {
 	.blob1 {
 			opacity: 50%;
 			position: absolute;
-			left: 0px;
-			top: 400px;
+			left: -8%;
+			top: 66%;
 			display: block;
 			width: 40%;
 			-webkit-animation-name: zoomIn;
@@ -529,8 +532,8 @@ input, select, textarea {
 		.blob2 {
 			opacity: 0%;
 			position: absolute;
-			left: 700px;
-			top:350px;
+			left: 73%;
+			top:52%;
 
 			display: block;
 			width: 40%;
@@ -546,8 +549,8 @@ input, select, textarea {
 		.blob3 {
 			opacity: 0%;
 			position: absolute;
-			left: 800px;
-			top: 25px;
+			left: 83%;
+			top: 0%;
 			display: block;
 			width: 15%;
 			-webkit-animation-name: zoomIn;
@@ -563,8 +566,8 @@ input, select, textarea {
 			opacity: 0%;
 			display: block;
 			position:absolute;
-			top:-40px;
-			left:-100px;
+			top:-10%;
+			left:-10%;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
 			  animation-name: zoomIn;
@@ -579,8 +582,8 @@ input, select, textarea {
 		.blob5 {
 			opacity: 0%;
 			position: absolute;
-			top: -30px;
-			right: 450px;
+			top: -20%;
+			right: 33%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
@@ -594,6 +597,7 @@ input, select, textarea {
 		}
 }
 
+\
 .wrapper h1 {
 	text-align: center;
 }
@@ -685,176 +689,8 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.65;
 	}
-		@media screen and (min-width: 1800px)
-		{
-			.blob1 {
-			opacity: 50%;
-			position: absolute;
-			left: 30px;
-			top: 600px;
-			display: block;
-			width: 40%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 0.2s; 
-			}
-		.blob2 {
-			opacity: 0%;
-			position: absolute;
-			left: 1300px;
-			top:350px;
-
-			display: block;
-			width: 40%;
-			-webkit-animation-name: zoomIn;
-		  animation-name: zoomIn;
-		  -webkit-animation-duration: 1s;
-		  animation-duration: .2s;
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both; 
-		  -webkit-animation-delay: 0.1s;
-		  animation-delay: 0.7s; 
-		}
-		.blob3 {
-			opacity: 0%;
-			position: absolute;
-			left: 1525px;
-			top: 25px;
-			display: block;
-			width: 15%;
-			-webkit-animation-name: zoomIn;
-		  animation-name: zoomIn;
-		  -webkit-animation-duration: 1s;
-		  animation-duration: .2s;
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both; 
-		  -webkit-animation-delay: 0.1s;
-		  animation-delay: 1.2s; 
-		}
-		.blob4 {
-			opacity: 0%;
-			display: block;
-			position:absolute;
-			top:-100px;
-			left:-125px;
-			width: 35%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 2.2s; 
-
-		}
-		.blob5 {
-			opacity: 0%;
-			position: absolute;
-			top: -150px;
-			left: 800px;
-			display: block;
-			width: 25%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 1.7s; 
-		}
-		}
-		@media screen and (max-width: 1400px)
-		{
-			.blob1 {
-			opacity: 50%;
-			position: absolute;
-			left: -300px;
-			top: 600px;
-			display: block;
-			width: 40%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 0.2s; 
-			}
-		.blob2 {
-			opacity: 0%;
-			position: absolute;
-			left: 1000px;
-			top:550px;
-
-			display: block;
-			width: 40%;
-			-webkit-animation-name: zoomIn;
-		  animation-name: zoomIn;
-		  -webkit-animation-duration: 1s;
-		  animation-duration: .2s;
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both; 
-		  -webkit-animation-delay: 0.1s;
-		  animation-delay: 0.7s; 
-		}
-		.blob3 {
-			opacity: 0%;
-			position: absolute;
-			left: 1125px;
-			top: 25px;
-			display: block;
-			width: 15%;
-			-webkit-animation-name: zoomIn;
-		  animation-name: zoomIn;
-		  -webkit-animation-duration: 1s;
-		  animation-duration: .2s;
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both; 
-		  -webkit-animation-delay: 0.1s;
-		  animation-delay: 1.2s; 
-		}
-		.blob4 {
-			opacity: 0%;
-			display: block;
-			position:absolute;
-			top:-100px;
-			left:-225px;
-			width: 35%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 2.2s; 
-
-		}
-		.blob5 {
-			opacity: 0%;
-			position: absolute;
-			top: -150px;
-			left: 550px;
-			display: block;
-			width: 25%;
-			-webkit-animation-name: zoomIn;
-			  animation-name: zoomIn;
-			  -webkit-animation-duration: 1s;
-			  animation-duration: .2s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both; 
-			  -webkit-animation-delay: 0.1s;
-			  animation-delay: 1.7s; 
-		}
-		}
+		
+		
 
 		@media screen and (max-width: 1680px) {
 
