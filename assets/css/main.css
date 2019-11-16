@@ -256,7 +256,7 @@ input, select, textarea {
 @media screen and (max-width: 900px) and (min-width: 730px)
 {
 	.blob1 {
-			opacity: 50%;
+
 			position: absolute;
 			left: 0%;
 			top: 66%;
@@ -272,7 +272,7 @@ input, select, textarea {
 			  animation-delay: 0.2s; 
 		}
 		.blob2 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 73%;
 			top:58%;
@@ -289,7 +289,7 @@ input, select, textarea {
 		  animation-delay: 0.7s; 
 		}
 		.blob3 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 83%;
 			top: 10%;
@@ -305,7 +305,7 @@ input, select, textarea {
 		  animation-delay: 1.2s; 
 		}
 		.blob4 {
-			opacity: 0%;
+
 			display: block;
 			position:absolute;
 			top:8%;
@@ -322,7 +322,7 @@ input, select, textarea {
 
 		}
 		.blob5 {
-			opacity: 0%;
+
 			position: absolute;
 			top: 8%;
 			right: 33%;
@@ -341,7 +341,7 @@ input, select, textarea {
 @media screen and (max-width: 729px) and (min-width: 500px)
 {
 	.blob1 {
-			opacity: 50%;
+
 			position: absolute;
 			left: -8%;
 			top: 66%;
@@ -357,7 +357,7 @@ input, select, textarea {
 			  animation-delay: 0.2s; 
 		}
 		.blob2 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 73%;
 			top:58%;
@@ -374,7 +374,7 @@ input, select, textarea {
 		  animation-delay: 0.7s; 
 		}
 		.blob3 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 83%;
 			top: 10%;
@@ -390,7 +390,7 @@ input, select, textarea {
 		  animation-delay: 1.2s; 
 		}
 		.blob4 {
-			opacity: 0%;
+
 			display: block;
 			position:absolute;
 			top:0%;
@@ -407,7 +407,7 @@ input, select, textarea {
 
 		}
 		.blob5 {
-			opacity: 0%;
+
 			position: absolute;
 			top: 0%;
 			right: 33%;
@@ -429,7 +429,7 @@ input, select, textarea {
 @media screen and (max-width: 1919px) and (min-width: 901px)
 {
 	.blob1 {
-			opacity: 50%;
+
 			position: absolute;
 			left: -8%;
 			top: 66%;
@@ -445,7 +445,7 @@ input, select, textarea {
 			  animation-delay: 0.2s; 
 		}
 		.blob2 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 73%;
 			top:58%;
@@ -462,7 +462,7 @@ input, select, textarea {
 		  animation-delay: 0.7s; 
 		}
 		.blob3 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 83%;
 			top: 0%;
@@ -478,7 +478,7 @@ input, select, textarea {
 		  animation-delay: 1.2s; 
 		}
 		.blob4 {
-			opacity: 0%;
+
 			display: block;
 			position:absolute;
 			top:-10%;
@@ -495,7 +495,7 @@ input, select, textarea {
 
 		}
 		.blob5 {
-			opacity: 0%;
+
 			position: absolute;
 			top: -10%;
 			right: 33%;
@@ -514,7 +514,7 @@ input, select, textarea {
 @media screen and (max-width: 4000px) and (min-width: 1920px)
 {
 	.blob1 {
-			opacity: 50%;
+
 			position: absolute;
 			left: -8%;
 			top: 66%;
@@ -530,7 +530,7 @@ input, select, textarea {
 			  animation-delay: 0.2s; 
 		}
 		.blob2 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 73%;
 			top:52%;
@@ -547,7 +547,7 @@ input, select, textarea {
 		  animation-delay: 0.7s; 
 		}
 		.blob3 {
-			opacity: 0%;
+
 			position: absolute;
 			left: 83%;
 			top: 0%;
@@ -563,7 +563,7 @@ input, select, textarea {
 		  animation-delay: 1.2s; 
 		}
 		.blob4 {
-			opacity: 0%;
+
 			display: block;
 			position:absolute;
 			top:-10%;
@@ -580,7 +580,7 @@ input, select, textarea {
 
 		}
 		.blob5 {
-			opacity: 0%;
+
 			position: absolute;
 			top: -20%;
 			right: 33%;
@@ -610,7 +610,7 @@ input, select, textarea {
   }
 
   50% {
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
@@ -622,7 +622,7 @@ input, select, textarea {
   }
 
   50% {
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
@@ -633,7 +633,7 @@ input, select, textarea {
 
 		
 		.center {
-		opacity: 0%;
+
 		  display: block;
 		  margin-left: 22%;
 		  margin-right: auto;
