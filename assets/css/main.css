@@ -352,7 +352,7 @@ input, select, textarea {
 	.blob1 {
 
 			position: absolute;
-			left: -8%;
+			left: -14%;
 			top: 66%;
 			display: block;
 			width: 40%;
@@ -419,7 +419,7 @@ input, select, textarea {
 
 			position: absolute;
 			top: 0%;
-			right: 33%;
+			right: 27%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
