@@ -2059,6 +2059,16 @@ input, select, textarea {
 			margin: .8em;
 		}
 
+		.largeSponsor{
+			height: 5em;
+			margin: .8em;
+		}
+
+		.smallSponsor{
+			height: 4em;
+			margin: .8em;
+		}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
@@ -2155,6 +2165,16 @@ input, select, textarea {
 				height: 2em;
 				margin: .5em;
 			}
+
+			.largeSponsor{
+				height: 4em;
+				margin: .8em;
+			}
+
+			.smallSponsor{
+				height: 3em;
+				margin: .8em;
+			}
 				#header nav {
 					top: 0;
 					right: 0;
@@ -2189,6 +2209,16 @@ input, select, textarea {
 			}
 				#headerImg{
 					height: 1.5em;
+					margin: .8em;
+				}
+
+				.largeSponsor{
+					height: 3em;
+					margin: .8em;
+				} 
+
+				.smallSponsor{
+					height: 2em;
 					margin: .8em;
 				}
 
