@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
 	line-height: 1;
 }
@@ -338,7 +342,7 @@ input, select, textarea {
 			  animation-delay: 1.7s; 
 		}
 }
-@media screen and (max-width: 729px) and (min-width: 500px)
+@media screen and (max-width: 729px)
 {
 	.blob1 {
 
@@ -852,6 +856,7 @@ input, select, textarea {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(0, 0, 0, 0.5);
 			font-size: 2.4em;
+			margin-bottom: .5em;
 		}
 
 .team .thumbnail {
@@ -2049,6 +2054,10 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 	}
+		#headerImg{
+			height: 2.5em;
+			margin: .8em;
+		}
 
 		#header h1 {
 			-moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
@@ -2142,7 +2151,10 @@ input, select, textarea {
 				height: 2.75em;
 				line-height: 2.75em;
 			}
-
+			#headerImg{
+				height: 2em;
+				margin: .5em;
+			}
 				#header nav {
 					top: 0;
 					right: 0;
@@ -2175,6 +2187,10 @@ input, select, textarea {
 				text-indent: 4em;
 				position: relative;
 			}
+				#headerImg{
+					height: 1.5em;
+					margin: .8em;
+				}
 
 				#header nav a[href="#menu"]:before {
 					width: inherit;
