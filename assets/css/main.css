@@ -217,6 +217,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			visibility: hidden;
 		}
 .section-agenda .session {
     padding       : 15px 0;
@@ -401,8 +402,8 @@ input, select, textarea {
 
 			display: block;
 			position:absolute;
-			top:0%;
-			left:0px;
+			top:-10%;
+			left:-25%;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
 			  animation-name: zoomIn;
@@ -434,7 +435,6 @@ input, select, textarea {
 			font-size:1.5em;
 		}
 		.blob{
-			visibility: hidden;
 		}
 }
 @media screen and (max-width: 1919px) and (min-width: 901px)
@@ -2514,6 +2514,7 @@ input, select, textarea {
 			-ms-transform: translateY(0.5em);
 			transform: translateY(0.5em);
 			opacity: 0;
+			visibility: hidden;
 		}
 
 		body.is-preload #banner h2 {
@@ -2526,6 +2527,7 @@ input, select, textarea {
 			-webkit-filter: blur(2px);
 			-ms-filter: blur(2px);
 			filter: blur(2px);
+			visibility: hidden;
 		}
 
 		body.is-preload #banner p {
@@ -2538,6 +2540,7 @@ input, select, textarea {
 			-webkit-filter: blur(2px);
 			-ms-filter: blur(2px);
 			filter: blur(2px);
+			visibility: hidden;
 		}
 
 /* Wrapper */
@@ -3291,7 +3294,12 @@ input, select, textarea {
 				font-size: 2vw;
 			}
 
+			#headerSpace{
+				padding-top: 5%;
+			}
+
 		}
+
 
 		@media screen and (max-width: 480px) {
 
@@ -3313,5 +3321,8 @@ input, select, textarea {
 				height: auto;
 			}
 
+			#headerSpace{
+				padding-top: 25%;
+			}
 
 		}
