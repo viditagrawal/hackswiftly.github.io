@@ -217,6 +217,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			visibility: hidden;
 		}
 .section-agenda .session {
     padding       : 15px 0;
@@ -351,7 +352,7 @@ input, select, textarea {
 	.blob1 {
 
 			position: absolute;
-			left: -8%;
+			left: -14%;
 			top: 66%;
 			display: block;
 			width: 40%;
@@ -401,8 +402,8 @@ input, select, textarea {
 
 			display: block;
 			position:absolute;
-			top:0%;
-			left:0px;
+			top:-10%;
+			left:-25%;
 			width: 35%;
 			-webkit-animation-name: zoomIn;
 			  animation-name: zoomIn;
@@ -417,8 +418,8 @@ input, select, textarea {
 		.blob5 {
 
 			position: absolute;
-			top: 0%;
-			right: 33%;
+			top: -10%;
+			right: 27%;
 			display: block;
 			width: 25%;
 			-webkit-animation-name: zoomIn;
@@ -2514,6 +2515,7 @@ input, select, textarea {
 			-ms-transform: translateY(0.5em);
 			transform: translateY(0.5em);
 			opacity: 0;
+			visibility: hidden;
 		}
 
 		body.is-preload #banner h2 {
@@ -2526,6 +2528,7 @@ input, select, textarea {
 			-webkit-filter: blur(2px);
 			-ms-filter: blur(2px);
 			filter: blur(2px);
+			visibility: hidden;
 		}
 
 		body.is-preload #banner p {
@@ -2538,6 +2541,7 @@ input, select, textarea {
 			-webkit-filter: blur(2px);
 			-ms-filter: blur(2px);
 			filter: blur(2px);
+			visibility: hidden;
 		}
 
 /* Wrapper */
@@ -3291,7 +3295,12 @@ input, select, textarea {
 				font-size: 2vw;
 			}
 
+			#headerSpace{
+				padding-top: 5%;
+			}
+
 		}
+
 
 		@media screen and (max-width: 480px) {
 
@@ -3313,5 +3322,8 @@ input, select, textarea {
 				height: auto;
 			}
 
+			#headerSpace{
+				padding-top: 25%;
+			}
 
 		}
